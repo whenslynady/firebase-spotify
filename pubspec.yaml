@@ -20,6 +20,7 @@ dependencies:
   path_provider:
   firebase_core:
   firebase_auth:
+  logger:
   get_it:
   dartz:
   cloud_firestore:
