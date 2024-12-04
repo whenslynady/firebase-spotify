@@ -57,7 +57,7 @@ This project simulates the core functionalities of Spotify:
 
 ### 1. Clone this repository:
 ```bash
-git clone https://github.com/your-repo/spotify-clone.git
+[git clone https://github.com/your-repo/spotify-clone.git](https://github.com/whenslynady/firebase-spotify.git)
 
 
 [YouTube video](https://youtu.be/4TFbXepOjLI) where the source code is explained. 
