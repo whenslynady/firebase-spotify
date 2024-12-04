@@ -23,19 +23,20 @@ class _SplashPageState extends State<SplashPage> {
     return Scaffold(
       body: Center(
         child: SvgPicture.asset(
-          AppVectors.logo
-        )
+          AppVectors.logo,
+        ),
       ),
     );
   }
 
   Future<void> redirect() async {
     await Future.delayed(const Duration(seconds: 2));
+    if (!mounted) return; // Verifica si el widget aún está en el árbol de widgets
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(
-        builder: (BuildContext context) => const GetStartedPage()
-      )
+        builder: (BuildContext context) => const GetStartedPage(),
+      ),
     );
   }
 }
