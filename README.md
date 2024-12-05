@@ -62,4 +62,4 @@ Once the server is running, open your browser and navigate to `http://localhost:
 Enjoy using Firebase Spotify!
 ```  
 
-This version is entirely in English and formatted as a single block. Let me know if you need anything else!
+
